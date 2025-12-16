@@ -19,10 +19,9 @@ import {
   Quote,
   ChevronDown,
   ExternalLink,
-  Mail
 } from 'lucide-react';
 import { GoogleGenAI } from "@google/genai";
-import { APP_NAME, TAGLINE, SUB_TAGLINE, CONTACT_INFO, MENU_DATA, REVIEWS, GALLERY_IMAGES } from './constants';
+import { TAGLINE, SUB_TAGLINE, CONTACT_INFO, MENU_DATA, REVIEWS, GALLERY_IMAGES } from './constants';
 import type { Page, Message } from './types';
 
 // --- Services ---
